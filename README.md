@@ -2,13 +2,8 @@
 
 ### Allow you to glue files in selected directory and write them in result file
 #### The most useful use case - add content of the result file in LLM
-## Options
-- -i, --input <arg>       input directory for gluing files       
-- -o, --output <arg>      output file path                       
-- -ig, --ignore <arg>      ignore file like .gitignore            
-- -h, --help        show help                              
-- -s, --separator <arg> file separator. Default separator is:
 
+## Options
 | Option              | Required | Description                                           |
 |---------------------|----------|-------------------------------------------------------|
 | -i, --input <arg>   | true     | input directory for gluing files                      |
