@@ -13,12 +13,12 @@
 | -h, --help          | false    | show help                                             |
 
 ## Usage
-1) Run file-gluer.jar located at ./build/libs like: java -jar file-gluer.jar -i <dir-to-gluing-files> -o <output-file-path>
-2) Add env to PATH - dir to file filegluer.bat, then run from anywhere: filegluer -i <dir-to-gluing-files> -o <output-file-path>
+1) Run file-gluer.jar located at ./build/libs like: java -jar file-gluer.jar -i dir-to-gluing-files -o output-file-path
+2) Add env to PATH - dir to file filegluer.bat, then run from anywhere: filegluer -i dir-to-gluing-files -o output-file-path
 
 ## Example of ignore file
 You can add ignore file containing dirs and files witch you are want 
-to be excluded. Syntax are similar to .gitignore.
+to be excluded (option -ig). Syntax are similar to .gitignore.
 For example, glue only source files:
 ```
 *
